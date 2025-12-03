@@ -1,13 +1,8 @@
 import type { Day } from "../types";
 
 import p1 from "./part1";
+import p2 from "./part2";
 
-const day1: Day = {
-  p1,
-  p2() {
-    // TODO: implement part 2
-    return "not implemented 2";
-  },
-};
+const day1: Day = { p1, p2 };
 
 export default day1;
